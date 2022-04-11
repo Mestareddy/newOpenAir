@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/airplane.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Responsiveness */
+@media (max-width: 320px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+    }
+
+    .title {
+        margin-top: -25px;
+        margin-left: -390px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+    }
+
+    .title {
+        margin-top: -25px;
+        margin-left: -390px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+    }
+
+    .title {
+        margin-top: -25px;
+        margin-left: -390px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+    }
+
+    .title {
+        margin-top: -25px;
+        margin-left: -360px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+    }
+
+    .title {
+        margin-top: -25px;
+        margin-left: -360px;
+        position: absolute;
+    }
+}
